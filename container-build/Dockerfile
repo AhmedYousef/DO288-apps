@@ -1,3 +1,4 @@
+FROM quay.io/redhattraining/http-parent
 EXPOSE 8080
 LABEL io.openshift.expose-services="8080:http"
 LABEL io.k8s.description="A basic Apache HTTP Server child image, uses ONBUILD" \ 
